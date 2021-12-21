@@ -3,7 +3,7 @@
   background-image: url(../../../images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   margin: 0;
