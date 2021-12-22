@@ -9,3 +9,25 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header__subtitle {
+    font-size: 15px;
+    line-height: 1.2;
+    width: 288px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__subtitle {
+    font-size: 14px;
+    line-height: 1;
+    width: 188px;
+  }
+}

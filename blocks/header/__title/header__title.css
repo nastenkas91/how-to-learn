@@ -6,3 +6,25 @@
   font-weight: bold;
   z-index: 2;
 }
+
+@media screen and (max-width: 1160px) {
+  .header__title {
+    font-size: 88px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__title {
+    font-size: 7.5vw;
+    line-height: 1;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__title {
+    font-size: 36px;
+    line-height: 1;
+  }
+}

@@ -5,4 +5,14 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
+  z-index: 0;
 }
+
+@media screen and (max-width: 1160px) {
+  .header__square-pic {
+    width: 50%;
+    padding-bottom: 50%;
+    height: auto;
+  }
+}
+

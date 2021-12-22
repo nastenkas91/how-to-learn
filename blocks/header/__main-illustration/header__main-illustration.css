@@ -9,3 +9,11 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1160px) {
+  .header__main-illustration {
+    width: 50%;
+    height: auto;
+  }
+}
+
